@@ -285,7 +285,7 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           typeName: UnityEngine.Sprite
-          value: {fileID: 21300000, guid: 0be6cb7c348a4fa479152c6af3cb65f3, type: 3}
+          value: {fileID: -8246103488371625927, guid: 5d61f9186b79fe74f9171e5f72564e62, type: 3}
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
@@ -366,10 +366,10 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: card_id
+          value: card_type
         fsmObjectParams: []
         fsmVarParams:
-        - variableName: card_id
+        - variableName: card_type
           objectType: UnityEngine.Object
           useVariable: 1
           type: 1
@@ -431,23 +431,14 @@ MonoBehaviour:
           stringValues: []
           vector4Values: []
           objectReferences:
-          - {fileID: -87684609, guid: 6926c7e02ea108b469985323b29a34b5, type: 3}
-          - {fileID: 279618598, guid: 6926c7e02ea108b469985323b29a34b5, type: 3}
-          - {fileID: -505532483, guid: 6926c7e02ea108b469985323b29a34b5, type: 3}
-          - {fileID: -823006228, guid: 6926c7e02ea108b469985323b29a34b5, type: 3}
-          - {fileID: -27242037, guid: 6926c7e02ea108b469985323b29a34b5, type: 3}
-          - {fileID: -1859208371, guid: 6926c7e02ea108b469985323b29a34b5, type: 3}
-          - {fileID: 897312708, guid: 6926c7e02ea108b469985323b29a34b5, type: 3}
-          - {fileID: -1674923271, guid: 6926c7e02ea108b469985323b29a34b5, type: 3}
-          - {fileID: -1432236563, guid: 6926c7e02ea108b469985323b29a34b5, type: 3}
-          - {fileID: 1305200653, guid: 6926c7e02ea108b469985323b29a34b5, type: 3}
-          - {fileID: -602323307, guid: 6926c7e02ea108b469985323b29a34b5, type: 3}
-          - {fileID: -1000154890, guid: 6926c7e02ea108b469985323b29a34b5, type: 3}
+          - {fileID: 7024648501981196136, guid: b828a02f65b2dbd4bb95cdded6fe8f14, type: 3}
+          - {fileID: -1126914049, guid: b828a02f65b2dbd4bb95cdded6fe8f14, type: 3}
+          - {fileID: -737686975, guid: b828a02f65b2dbd4bb95cdded6fe8f14, type: 3}
         fsmEnumParams: []
         fsmFloatParams: []
         fsmIntParams:
         - useVariable: 1
-          name: card_id
+          name: card_type
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -626,7 +617,7 @@ MonoBehaviour:
           typeName: UnityEngine.AudioClip
           value: {fileID: 8300000, guid: 656bc1ed106fd7249963b78d0856772b, type: 3}
         fsmVarParams:
-        - variableName: card_id
+        - variableName: card_type
           objectType: UnityEngine.Object
           useVariable: 1
           type: 1
@@ -1609,7 +1600,7 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           typeName: UnityEngine.Sprite
-          value: {fileID: 21300000, guid: 0be6cb7c348a4fa479152c6af3cb65f3, type: 3}
+          value: {fileID: -8246103488371625927, guid: 5d61f9186b79fe74f9171e5f72564e62, type: 3}
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
@@ -1774,27 +1765,73 @@ MonoBehaviour:
         linkTarget: 0
         colorIndex: 0
       actionData:
-        actionNames: []
-        customNames: []
-        actionEnabled: 
-        actionIsOpen: 
-        actionStartIndex: 
-        actionHashCodes: 
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SendEventByName
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: ba7ea101
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
-        fsmEventTargetParams: []
+        fsmEventTargetParams:
+        - target: 1
+          excludeSelf:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          gameObject:
+            ownerOption: 1
+            gameObject:
+              useVariable: 1
+              name: GAME_MANAGER
+              tooltip: 
+              showInInspector: 0
+              networkSync: 0
+              value: {fileID: 0}
+          fsmName:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 
+          sendToChildren:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          fsmComponent: {fileID: 0}
         fsmPropertyParams: []
         layoutOptionParams: []
-        fsmStringParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: CARD CREATED
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
@@ -1803,15 +1840,19 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 
+        byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 
-        paramName: []
-        paramDataPos: 
-        paramByteDataSize: 
+        paramDataType: 1f000000120000000f00000001000000
+        paramName:
+        - eventTarget
+        - sendEvent
+        - delay
+        - everyFrame
+        paramDataPos: 00000000000000000000000000000000
+        paramByteDataSize: 00000000000000000000000001000000
     - name: hide self
       description: 
       colorIndex: 0
@@ -2138,7 +2179,7 @@ MonoBehaviour:
       floatVariables: []
       intVariables:
       - useVariable: 1
-        name: card_id
+        name: card_type
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -2175,18 +2216,9 @@ MonoBehaviour:
         stringValues: []
         vector4Values: []
         objectReferences:
-        - {fileID: 201874464, guid: 27072feaf17e10b458fc0d4a4a2df1fc, type: 3}
-        - {fileID: -613528014, guid: 27072feaf17e10b458fc0d4a4a2df1fc, type: 3}
-        - {fileID: 2053538717, guid: 27072feaf17e10b458fc0d4a4a2df1fc, type: 3}
-        - {fileID: -703013398, guid: 27072feaf17e10b458fc0d4a4a2df1fc, type: 3}
-        - {fileID: 528907845, guid: 27072feaf17e10b458fc0d4a4a2df1fc, type: 3}
-        - {fileID: -46052546, guid: 27072feaf17e10b458fc0d4a4a2df1fc, type: 3}
-        - {fileID: 1024742812, guid: 27072feaf17e10b458fc0d4a4a2df1fc, type: 3}
-        - {fileID: 2091025036, guid: 27072feaf17e10b458fc0d4a4a2df1fc, type: 3}
-        - {fileID: -205540120, guid: 27072feaf17e10b458fc0d4a4a2df1fc, type: 3}
-        - {fileID: 947913860, guid: 27072feaf17e10b458fc0d4a4a2df1fc, type: 3}
-        - {fileID: 1254661699, guid: 27072feaf17e10b458fc0d4a4a2df1fc, type: 3}
-        - {fileID: -410938401, guid: 27072feaf17e10b458fc0d4a4a2df1fc, type: 3}
+        - {fileID: 7024648501981196136, guid: b828a02f65b2dbd4bb95cdded6fe8f14, type: 3}
+        - {fileID: -1126914049, guid: b828a02f65b2dbd4bb95cdded6fe8f14, type: 3}
+        - {fileID: -737686975, guid: b828a02f65b2dbd4bb95cdded6fe8f14, type: 3}
       enumVariables: []
       categories:
       - 
