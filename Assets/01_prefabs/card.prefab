@@ -615,7 +615,7 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           typeName: UnityEngine.AudioClip
-          value: {fileID: 8300000, guid: 656bc1ed106fd7249963b78d0856772b, type: 3}
+          value: {fileID: 8300000, guid: aaea19ab2ffeedb419c7881b6873b57e, type: 3}
         fsmVarParams:
         - variableName: card_type
           objectType: UnityEngine.Object
